@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		743669E31EAA592700244E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743669E21EAA592700244E0D /* AppDelegate.swift */; };
+		743669E51EAA592700244E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743669E41EAA592700244E0D /* ViewController.swift */; };
+		743669E71EAA592700244E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743669E61EAA592700244E0D /* Assets.xcassets */; };
+		743669EA1EAA592700244E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743669E81EAA592700244E0D /* Main.storyboard */; };
+		743669F51EAA592700244E0D /* TouchBarBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743669F41EAA592700244E0D /* TouchBarBrowserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		743669F11EAA592700244E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 743669D71EAA592700244E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 743669DE1EAA592700244E0D;
+			remoteInfo = TouchBarBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		743669DF1EAA592700244E0D /* TouchBarBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		743669E21EAA592700244E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		743669E41EAA592700244E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		743669E61EAA592700244E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		743669E91EAA592700244E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		743669EB1EAA592700244E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743669F01EAA592700244E0D /* TouchBarBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		743669F41EAA592700244E0D /* TouchBarBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarBrowserTests.swift; sourceTree = "<group>"; };
+		743669F61EAA592700244E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		743669DC1EAA592700244E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743669ED1EAA592700244E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743669D61EAA592700244E0D = {
+			isa = PBXGroup;
+			children = (
+				743669E11EAA592700244E0D /* TouchBarBrowser */,
+				743669F31EAA592700244E0D /* TouchBarBrowserTests */,
+				743669E01EAA592700244E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		743669E01EAA592700244E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				743669DF1EAA592700244E0D /* TouchBarBrowser.app */,
+				743669F01EAA592700244E0D /* TouchBarBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		743669E11EAA592700244E0D /* TouchBarBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				743669E21EAA592700244E0D /* AppDelegate.swift */,
+				743669E41EAA592700244E0D /* ViewController.swift */,
+				743669E61EAA592700244E0D /* Assets.xcassets */,
+				743669E81EAA592700244E0D /* Main.storyboard */,
+				743669EB1EAA592700244E0D /* Info.plist */,
+			);
+			path = TouchBarBrowser;
+			sourceTree = "<group>";
+		};
+		743669F31EAA592700244E0D /* TouchBarBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				743669F41EAA592700244E0D /* TouchBarBrowserTests.swift */,
+				743669F61EAA592700244E0D /* Info.plist */,
+			);
+			path = TouchBarBrowserTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		743669DE1EAA592700244E0D /* TouchBarBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743669F91EAA592700244E0D /* Build configuration list for PBXNativeTarget "TouchBarBrowser" */;
+			buildPhases = (
+				743669DB1EAA592700244E0D /* Sources */,
+				743669DC1EAA592700244E0D /* Frameworks */,
+				743669DD1EAA592700244E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchBarBrowser;
+			productName = TouchBarBrowser;
+			productReference = 743669DF1EAA592700244E0D /* TouchBarBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		743669EF1EAA592700244E0D /* TouchBarBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743669FC1EAA592700244E0D /* Build configuration list for PBXNativeTarget "TouchBarBrowserTests" */;
+			buildPhases = (
+				743669EC1EAA592700244E0D /* Sources */,
+				743669ED1EAA592700244E0D /* Frameworks */,
+				743669EE1EAA592700244E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				743669F21EAA592700244E0D /* PBXTargetDependency */,
+			);
+			name = TouchBarBrowserTests;
+			productName = TouchBarBrowserTests;
+			productReference = 743669F01EAA592700244E0D /* TouchBarBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		743669D71EAA592700244E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "佐藤秀輔";
+				TargetAttributes = {
+					743669DE1EAA592700244E0D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					743669EF1EAA592700244E0D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 743669DE1EAA592700244E0D;
+					};
+				};
+			};
+			buildConfigurationList = 743669DA1EAA592700244E0D /* Build configuration list for PBXProject "TouchBarBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 743669D61EAA592700244E0D;
+			productRefGroup = 743669E01EAA592700244E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				743669DE1EAA592700244E0D /* TouchBarBrowser */,
+				743669EF1EAA592700244E0D /* TouchBarBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		743669DD1EAA592700244E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743669E71EAA592700244E0D /* Assets.xcassets in Resources */,
+				743669EA1EAA592700244E0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743669EE1EAA592700244E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		743669DB1EAA592700244E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743669E51EAA592700244E0D /* ViewController.swift in Sources */,
+				743669E31EAA592700244E0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743669EC1EAA592700244E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743669F51EAA592700244E0D /* TouchBarBrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		743669F21EAA592700244E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 743669DE1EAA592700244E0D /* TouchBarBrowser */;
+			targetProxy = 743669F11EAA592700244E0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		743669E81EAA592700244E0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743669E91EAA592700244E0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		743669F71EAA592700244E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		743669F81EAA592700244E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		743669FA1EAA592700244E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = totoKirisame.TouchBarBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		743669FB1EAA592700244E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = totoKirisame.TouchBarBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		743669FD1EAA592700244E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = totoKirisame.TouchBarBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBarBrowser.app/Contents/MacOS/TouchBarBrowser";
+			};
+			name = Debug;
+		};
+		743669FE1EAA592700244E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = totoKirisame.TouchBarBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBarBrowser.app/Contents/MacOS/TouchBarBrowser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		743669DA1EAA592700244E0D /* Build configuration list for PBXProject "TouchBarBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743669F71EAA592700244E0D /* Debug */,
+				743669F81EAA592700244E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743669F91EAA592700244E0D /* Build configuration list for PBXNativeTarget "TouchBarBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743669FA1EAA592700244E0D /* Debug */,
+				743669FB1EAA592700244E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		743669FC1EAA592700244E0D /* Build configuration list for PBXNativeTarget "TouchBarBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743669FD1EAA592700244E0D /* Debug */,
+				743669FE1EAA592700244E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 743669D71EAA592700244E0D /* Project object */;
+}
