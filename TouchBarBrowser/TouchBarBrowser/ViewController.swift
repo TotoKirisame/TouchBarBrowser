@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import WebKit
 
 class ViewController: NSViewController {
 

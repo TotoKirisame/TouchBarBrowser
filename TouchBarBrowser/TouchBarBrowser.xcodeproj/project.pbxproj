@@ -12,6 +12,8 @@
 		743669E71EAA592700244E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743669E61EAA592700244E0D /* Assets.xcassets */; };
 		743669EA1EAA592700244E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743669E81EAA592700244E0D /* Main.storyboard */; };
 		743669F51EAA592700244E0D /* TouchBarBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743669F41EAA592700244E0D /* TouchBarBrowserTests.swift */; };
+		74366A011EAA5DF500244E0D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74366A001EAA5DF500244E0D /* Cocoa.framework */; };
+		74366A031EAA5E0000244E0D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74366A021EAA5E0000244E0D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		743669F01EAA592700244E0D /* TouchBarBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		743669F41EAA592700244E0D /* TouchBarBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarBrowserTests.swift; sourceTree = "<group>"; };
 		743669F61EAA592700244E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74366A001EAA5DF500244E0D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		74366A021EAA5E0000244E0D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74366A031EAA5E0000244E0D /* WebKit.framework in Frameworks */,
+				74366A011EAA5DF500244E0D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,7 @@
 				743669E11EAA592700244E0D /* TouchBarBrowser */,
 				743669F31EAA592700244E0D /* TouchBarBrowserTests */,
 				743669E01EAA592700244E0D /* Products */,
+				743669FF1EAA5DF500244E0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +98,15 @@
 				743669F61EAA592700244E0D /* Info.plist */,
 			);
 			path = TouchBarBrowserTests;
+			sourceTree = "<group>";
+		};
+		743669FF1EAA5DF500244E0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74366A021EAA5E0000244E0D /* WebKit.framework */,
+				74366A001EAA5DF500244E0D /* Cocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
