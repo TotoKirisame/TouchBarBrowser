@@ -1,1 +1,3 @@
 # TouchBarBrowser
+
+TouchBarを用いたSafariのようなブラウザの作成を目標
