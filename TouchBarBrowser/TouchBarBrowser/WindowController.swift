@@ -48,7 +48,7 @@ extension WindowController: NSTouchBarDelegate {
             let custom = NSCustomTouchBarItem(identifier: identifier)
             custom.customizationLabel = "TouchBar Catalog Label"
             
-            let label = NSTextField.init(labelWithString: "Catalog")
+            let label = NSTextField.init(labelWithString: "Controll")
             custom.view = label
             
             return custom
