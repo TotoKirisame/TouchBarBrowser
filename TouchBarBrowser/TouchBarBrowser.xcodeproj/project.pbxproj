@@ -14,6 +14,7 @@
 		743669F51EAA592700244E0D /* TouchBarBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743669F41EAA592700244E0D /* TouchBarBrowserTests.swift */; };
 		74366A011EAA5DF500244E0D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74366A001EAA5DF500244E0D /* Cocoa.framework */; };
 		74366A031EAA5E0000244E0D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74366A021EAA5E0000244E0D /* WebKit.framework */; };
+		74EE06D01EC2959C0060CD5B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EE06CF1EC2959C0060CD5B /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		743669F61EAA592700244E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74366A001EAA5DF500244E0D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		74366A021EAA5E0000244E0D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		74EE06CF1EC2959C0060CD5B /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				743669E61EAA592700244E0D /* Assets.xcassets */,
 				743669E81EAA592700244E0D /* Main.storyboard */,
 				743669EB1EAA592700244E0D /* Info.plist */,
+				74EE06CF1EC2959C0060CD5B /* WindowController.swift */,
 			);
 			path = TouchBarBrowser;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				743669E51EAA592700244E0D /* ViewController.swift in Sources */,
+				74EE06D01EC2959C0060CD5B /* WindowController.swift in Sources */,
 				743669E31EAA592700244E0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				743669FB1EAA592700244E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		743669FC1EAA592700244E0D /* Build configuration list for PBXNativeTarget "TouchBarBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				743669FE1EAA592700244E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
